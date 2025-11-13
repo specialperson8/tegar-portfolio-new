@@ -1,22 +1,129 @@
 {
     "title": {
         "locales": {
-            "en": { "title_short": "Portfolio", "title_short_nav": "Portfolio", "title_long_prefix": "Take a look at", "title_long": "My {{Portfolio}}" },
-            "id": { "title_short": "Portofolio", "title_short_nav": "Portofolio", "title_long_prefix": "Lihat", "title_long": "{{Portofolio}} Saya" }
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "id": {
+                "title_short": "Portofolio",
+                "title_short_nav": "Portofolio",
+                "title_long_prefix": "Lihat",
+                "title_long": "{{Portofolio}} Saya"
+            }
         }
     },
     "articles": [
         {
-            "id": 1, "component": "ArticlePortfolio",
+            "id": 1,
+            "component": "ArticlePortfolio",
             "locales": {
                 "en": { "category_all": "All", "category_web": "Web Development" },
                 "id": { "category_all": "Semua", "category_web": "Pengembangan Web" }
             },
-            "settings": { "categorize_by": ["category_web"], "order_items_by": "id", "order_items_sort": "asc" },
+            "settings": {
+                "categorize_by": ["category_web"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
             "items": [
-                { "id": 1, "categoryId": "category_web", "img": "images/pictures/koperindo-logo.png", "preview": { "links": [{"href": "https://github.com/specialperson8", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}], "screenshots": ["images/pictures/koperindo-ss-1.png", "images/pictures/koperindo-ss-2.png"], "screenshotsAspectRatio": "16:9" }, "locales": { "en": { "title": "Koperindo Website & System", "text": "Development of a <b>company profile website</b> and a <b>web-based independent luggage ordering system</b> using <b>Laravel</b>.", "tags": ["Laravel", "Fullstack", "Web", "E-commerce"] }, "id": { "title": "Website & Sistem Koperindo", "text": "Pengembangan <b>website company profile</b> dan <b>sistem pemesanan koper mandiri</b> berbasis web menggunakan <b>Laravel</b>.", "tags": ["Laravel", "Fullstack", "Web", "E-commerce"] } } },
-                { "id": 2, "categoryId": "category_web", "img": "images/pictures/assyavet-logo.jpeg", "preview": { "links": [{"href": "https://github.com/specialperson8", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}], "screenshots": ["images/pictures/assyavet-ss-1.png", "images/pictures/assyavet-ss-2.png"], "screenshotsAspectRatio": "16:9" }, "locales": { "en": { "title": "Assyavet Clinic Website", "text": "Developed a modern, responsive, and user-friendly <b>front-end interface</b> to enhance user convenience in accessing <b>online clinic services</b>.", "tags": ["Frontend", "UI/UX", "Web", "Responsive"] }, "id": { "title": "Website Assyavet Clinic", "text": "Mengembangkan <b>antarmuka front-end</b> yang modern, responsif, dan user-friendly untuk meningkatkan kenyamanan pengguna dalam mengakses <b>layanan klinik</b> secara online.", "tags": ["Frontend", "UI/UX", "Web", "Responsive"] } } },
-                { "id": 3, "categoryId": "category_web", "img": "images/pictures/seblak-permata-logo.png", "preview": { "links": [{"href": "https://github.com/specialperson8", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}], "screenshots": ["images/pictures/seblak-permata-ss-1.png", "images/pictures/seblak-permata-ss-2.png"], "screenshotsAspectRatio": "16:9" }, "locales": { "en": { "title": "Seblak Permata – Online Cashier System", "text": "Built a web-based <b>online cashier system (Point of Sale)</b> using <b>Laravel</b> to help efficiently manage <b>transactions, products, and sales reports</b>.", "tags": ["Laravel", "POS", "Web", "Cashier"] }, "id": { "title": "Seblak Permata – Sistem Kasir Online", "text": "Membangun <b>sistem kasir online (Point of Sale)</b> berbasis web menggunakan <b>Laravel</b> untuk membantu <b>manajemen transaksi, produk, dan laporan penjualan</b> secara efisien.", "tags": ["Laravel", "POS", "Web", "Kasir"] } } }
+                {
+                    "id": 1,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/koperindo-logo.png",
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/specialperson8",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/ss-koperindo-compro2.png",
+                            "images/pictures/ss-koperindo-compro.png",
+                            "images/pictures/ss-koperindo-compro3.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Koperindo Website & System",
+                            "text": "Development of a <b>company profile website</b> and a <b>web-based independent luggage ordering system</b> using <b>Laravel</b>.",
+                            "tags": ["Laravel", "Fullstack", "Web", "E-commerce"]
+                        },
+                        "id": {
+                            "title": "Website & Sistem Koperindo",
+                            "text": "Pengembangan <b>website company profile</b> dan <b>sistem pemesanan koper mandiri</b> berbasis web menggunakan <b>Laravel</b>.",
+                            "tags": ["Laravel", "Fullstack", "Web", "E-commerce"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/assyavet-logo.jpeg",
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/specialperson8",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/assyavet-compro.png",
+                            "images/pictures/assyavet-compro2.png",
+                            "images/pictures/assyavet-compro3.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Assyavet Clinic Website",
+                            "text": "Developed a modern, responsive, and user-friendly <b>front-end interface</b> to enhance user convenience in accessing <b>online clinic services</b>.",
+                            "tags": ["Frontend", "UI/UX", "Web", "Responsive"]
+                        },
+                        "id": {
+                            "title": "Website Assyavet Clinic",
+                            "text": "Mengembangkan <b>antarmuka front-end</b> yang modern, responsif, dan user-friendly untuk meningkatkan kenyamanan pengguna dalam mengakses <b>layanan klinik</b> secara online.",
+                            "tags": ["Frontend", "UI/UX", "Web", "Responsive"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/seblak-permata-logo.png",
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/specialperson8",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/seblak-permata-ss-1.png",
+                            "images/pictures/seblak-permata-ss-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Seblak Permata – Online Cashier System",
+                            "text": "Built a web-based <b>online cashier system (Point of Sale)</b> using <b>Laravel</b> to help efficiently manage <b>transactions, products, and sales reports</b>.",
+                            "tags": ["Laravel", "POS", "Web", "Cashier"]
+                        },
+                        "id": {
+                            "title": "Seblak Permata – Sistem Kasir Online",
+                            "text": "Membangun <b>sistem kasir online (Point of Sale)</b> berbasis web menggunakan <b>Laravel</b> untuk membantu <b>manajemen transaksi, produk, dan laporan penjualan</b> secara efisien.",
+                            "tags": ["Laravel", "POS", "Web", "Kasir"]
+                        }
+                    }
+                }
             ]
         }
     ]
