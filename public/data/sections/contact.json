@@ -51,7 +51,7 @@
                 {
                     "id": 1,
                     "faIcon": "fa-solid fa-phone",
-                    "label": "085604276781",
+                    "label": "-",
                     "link": {"href": "tel:085604276781", "tooltipString": "call_me"},
                     "locales": { "en": {"title": "Phone"}, "id": {"title": "Telepon"} }
                 },
