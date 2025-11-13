@@ -1,0 +1,125 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "id": {
+                "title_short": "Kabar Terbaru",
+                "title_short_nav": "Pembaruan",
+                "title_long_prefix": "Lihat",
+                "title_long": "{{Pembaruan}} Terkini Saya"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "settings": { "order_items_by": "id", "order_items_sort": "asc" },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "locales": {
+                        "en": { "title": "5+", "text": "Projects Completed" },
+                        "id": { "title": "5+", "text": "Proyek Selesai" }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-laravel",
+                    "locales": {
+                        "en": { "title": "3+", "text": "Years with Laravel" },
+                        "id": { "title": "3+", "text": "Tahun bersama Laravel" }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-code-commit",
+                    "locales": {
+                        "en": { "title": "500+", "text": "Commits This Year" },
+                        "id": { "title": "500+", "text": "Commit Tahun Ini" }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-heart",
+                    "locales": {
+                        "en": { "title": "Infinite", "text": "Passion for learning" },
+                        "id": { "title": "Tak Terbatas", "text": "Semangat Belajar" }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" },
+                "id": { "title": "Fakta {{Singkat}}" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2024, "month": 7},
+                    "preview": { "links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": "" },
+                    "locales": {
+                        "en": {
+                            "title": "Completed the {{MSIB}} Batch 6 Program!",
+                            "province": "", "country": "", "institution": "Dicoding Indonesia & Kampus Merdeka",
+                            "text": "I am grateful and proud to have completed the MSIB program at Dicoding. This program provided valuable experience and broadened my horizons in web development."
+                        },
+                        "id": {
+                            "title": "Menyelesaikan Program {{MSIB}} Angkatan 6!",
+                            "province": "", "country": "", "institution": "Dicoding Indonesia & Kampus Merdeka",
+                            "text": "Saya bersyukur dan bangga telah menyelesaikan program Magang & Studi Independen Bersertifikat (MSIB) di Dicoding. Program ini memberikan banyak pengalaman berharga dan memperluas wawasan saya di bidang pengembangan web."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2022, "month": 2},
+                    "preview": { "links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": "" },
+                    "locales": {
+                        "en": {
+                            "title": "Won a Bronze Medal at {{AISEEF!}}",
+                            "province": "", "country": "", "institution": "Asean Innovative Science Environmental and Entrepreneur Fair",
+                            "text": "Received a bronze medal in an ASEAN-level innovation competition. This experience taught me the importance of collaboration and creative problem-solving."
+                        },
+                        "id": {
+                            "title": "Meraih Medali Perunggu di {{AISEEF!}}",
+                            "province": "", "country": "", "institution": "Asean Innovative Science Environmental and Entrepreneur Fair",
+                            "text": "Menerima penghargaan medali perunggu dalam sebuah kompetisi inovasi tingkat ASEAN. Pengalaman ini mengajarkan pentingnya kolaborasi dan pemecahan masalah yang kreatif."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2021, "month": 8},
+                    "preview": { "links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": "" },
+                    "locales": {
+                        "en": {
+                            "title": "Started My Journey at {{Politeknik Negeri Jember!}}",
+                            "province": "", "country": "", "institution": "Information Technology",
+                            "text": "Began my studies in the Information Technology program. This is where my interest in web development, especially with the Laravel framework, started to grow and develop."
+                        },
+                        "id": {
+                            "title": "Memulai Perjalanan di {{Politeknik Negeri Jember!}}",
+                            "province": "", "country": "", "institution": "Teknologi Informasi",
+                            "text": "Memulai studi saya di program studi Teknologi Informasi. Di sinilah minat saya pada pengembangan web, khususnya dengan framework Laravel, mulai tumbuh dan berkembang."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

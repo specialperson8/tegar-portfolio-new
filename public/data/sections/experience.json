@@ -1,0 +1,134 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/koperindo-logo.png",
+                    "dateStart": {"year": 2025, "month": 5},
+                    "dateEnd": {"year": 2025, "month": 8},
+                    "locales": {
+                        "en": {
+                            "title": "{{Junior}} Programmer",
+                            "province": "Sidoarjo",
+                            "country": "Indonesia",
+                            "institution": "KOPERINDO",
+                            "text": "Bertanggung jawab dalam pengembangan website company profile dan sistem pemesanan koper mandiri berbasis web.",
+                            "list": [
+                                "Mengembangkan website menggunakan Laravel, Blade, HTML5, CSS3, dan JavaScript.",
+                                "Membangun sistem Order Mandiri dengan fitur variasi produk, harga, dan warna.",
+                                "Membuat fitur dynamic color preview untuk koper secara real-time.",
+                                "Mengelola backend logic, controller, dan integrasi data produk."
+                            ],
+                            "tags": ["Laravel", "PHP", "JavaScript", "MySQL", "Blade"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/assyavet-logo.jpeg",
+                    "dateStart": {"year": 2024, "month": 8},
+                    "dateEnd": {"year": 2025, "month": 8},
+                    "locales": {
+                        "en": {
+                            "title": "{{Frontend Web}} Developer",
+                            "province": "Surabaya",
+                            "country": "Indonesia",
+                            "institution": "Assya Vet Care",
+                            "text": "Mengembangkan tampilan antarmuka yang menarik, responsif, dan user-friendly untuk website Assyavet Clinic guna meningkatkan kenyamanan pengguna.",
+                            "list": [
+                                "Mengimplementasikan UI situs yang modern dan sesuai kebutuhan pengguna.",
+                                "Berkolaborasi dengan tim desain untuk memastikan keselarasan visual dan fungsi.",
+                                "Mengoptimalkan performa front-end untuk waktu muat yang cepat.",
+                                "Melakukan pengujian di berbagai browser untuk konsistensi dan responsivitas."
+                            ],
+                            "tags": ["HTML", "CSS", "JavaScript", "UI/UX", "Responsive Design"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/bawaslu-logo.png",
+                    "dateStart": {"year": 2024, "month": 8},
+                    "dateEnd": {"year": 2025, "month": 2},
+                    "locales": {
+                        "en": {
+                            "title": "{{Technical}} Staff",
+                            "province": "Batu",
+                            "country": "Indonesia",
+                            "institution": "BAWASLU Kota Batu",
+                            "text": "Mendukung operasional teknologi informasi (IT) untuk memastikan kelancaran kegiatan kerja harian lembaga.",
+                            "list": [
+                                "Instalasi dan konfigurasi perangkat keras dan lunak.",
+                                "Troubleshooting perangkat komputer, printer, dan jaringan lokal (LAN).",
+                                "Memberikan dukungan teknis harian kepada staf.",
+                                "Mendokumentasikan masalah teknis dan solusinya."
+                            ],
+                            "tags": ["IT Support", "Hardware", "Networking", "Troubleshooting"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/dicoding-logo.jpg",
+                    "dateStart": {"year": 2024, "month": 2},
+                    "dateEnd": {"year": 2024, "month": 7},
+                    "locales": {
+                        "en": {
+                            "title": "{{Front-End and Back-End}} Developer",
+                            "province": "Bandung",
+                            "country": "Indonesia",
+                            "institution": "Dicoding Indonesia (MSIB)",
+                            "text": "Menyelesaikan program Magang & Studi Independen Bersertifikat (MSIB) dengan fokus pada pengembangan web fullstack.",
+                            "list": [
+                                "Mempelajari fundamental pengembangan web dari sisi front-end.",
+                                "Mendalami pengembangan back-end menggunakan teknologi modern.",
+                                "Mendapatkan sertifikasi keahlian yang relevan dengan industri."
+                            ],
+                            "tags": ["MSIB", "Frontend", "Backend", "Certification"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "images/pictures/polije-logo.png",
+                    "dateStart": {"year": 2022, "month": 8},
+                    "dateEnd": {"year": 2023, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "{{Frontend Web}} Developer",
+                            "province": "Jember",
+                            "country": "Indonesia",
+                            "institution": "Politeknik Negeri Jember (P3M)",
+                            "text": "Merancang, mengembangkan, dan memelihara antarmuka pengguna (UI/UX) untuk situs web resmi P3M (Pusat Penelitian dan Pengabdian kepada Masyarakat).",
+                            "list": [
+                                "Merancang desain UI/UX yang responsif dan ramah pengguna.",
+                                "Mengimplementasikan desain ke situs live dengan kolaborasi tim backend.",
+                                "Melakukan pemeliharaan rutin dan optimasi performa.",
+                                "Menangani proses troubleshooting dan menyelesaikan masalah yang dilaporkan."
+                            ],
+                            "tags": ["UI/UX", "Frontend", "Maintenance", "QA"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

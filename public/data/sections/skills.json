@@ -1,0 +1,221 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-server",
+                    "locales": {
+                        "en": {
+                            "title": "{{Backend}} Development",
+                            "text": "Merancang dan membangun logika sisi server yang kuat dan efisien."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-table-columns",
+                    "locales": {
+                        "en": {
+                            "title": "{{Frontend}} Development",
+                            "text": "Menciptakan antarmuka pengguna yang modern, cepat, dan responsif."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-database",
+                    "locales": {
+                        "en": {
+                            "title": "{{Database}} Management",
+                            "text": "Mengelola dan mengoptimalkan database MySQL untuk performa dan keandalan."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
+                    "locales": {
+                        "en": {
+                            "title": "{{Fullstack}} Integration",
+                            "text": "Menghubungkan frontend dan backend secara mulus untuk pengalaman pengguna yang solid."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Backend Stack"}
+            },
+            "settings": {
+                "order_items_by": "percentage",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-laravel",
+                    "faIconColors": {"fill": "#FF2D20"},
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "Laravel",
+                            "text": "Pemahaman mendalam tentang ekosistem Laravel untuk aplikasi web modern."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-php",
+                    "faIconColors": {"fill": "#777BB4"},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "PHP",
+                            "text": "Penguasaan PHP untuk logika backend yang kompleks."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"fill": "#4479A1"},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "text": "Manajemen dan optimisasi database relasional."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Frontend Stack"}
+            },
+            "settings": {
+                "order_items_by": "percentage",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {"fill": "#E34F26"},
+                    "percentage": 100,
+                    "locales": {
+                        "en": {
+                            "title": "HTML 5",
+                            "text": "Mahir dalam membangun halaman web yang terstruktur."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {"fill": "#1572B6"},
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "CSS 3",
+                            "text": "Mampu membuat desain yang responsif dan menarik secara visual."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {"fill": "#F7DF1E"},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "text": "Menguasai JavaScript untuk aplikasi web yang dinamis dan interaktif."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-wind",
+                    "faIconColors": {"fill": "#06B6D4"},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Tailwind CSS",
+                            "text": "Pengalaman menggunakan utility-first CSS framework untuk pengembangan cepat."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": {"fill": "#1E9C41"},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "jQuery",
+                            "text": "Memahami jQuery untuk manipulasi DOM dan interaksi."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Languages"}
+            },
+            "settings": {
+                "max_items_per_row": 1
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/id.png",
+                    "locales": {
+                        "en": {
+                            "title": "Indonesian",
+                            "text": "Native or bilingual proficiency.",
+                            "level": "Native"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/en-us.png",
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Basic conversational and reading proficiency.",
+                            "level": "Basic"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

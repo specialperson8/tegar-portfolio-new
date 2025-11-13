@@ -1,0 +1,125 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Tegar Alam Qushoyyi!}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Sidoarjo, Jawa Timur",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "tegaralam387@gmail.com",
+                    "link": {"href": "mailto:tegaralam387@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@specialperson8",
+                    "link": {"href": "https://github.com/specialperson8", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 4,
+                    "label": "Tegar Alam Qushoyyi",
+                    "link": {"href": "https://www.linkedin.com/in/tegaralam", "tooltipString": "see_on_linkedin"},
+                    "faIcon": "fa-brands fa-linkedin"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "locales": {
+                        "en": {
+                            "text": "<p>Halo, saya Tegar Alam Qushoyyi, seorang {{Fullstack Website Developer}} dan lulusan Politeknik Negeri Jember. Saya memiliki minat yang besar dalam membangun website fungsional dengan tampilan yang [[modern, cepat, dan mudah digunakan]].</p><p>Saya terbiasa menggunakan Laravel, PHP, JavaScript, HTML, CSS, dan MySQL, serta memahami prinsip responsive design dan user experience untuk memastikan setiap website yang saya kembangkan dapat berjalan optimal di berbagai perangkat.</p><p>Saya senang belajar teknologi baru dan terbuka terhadap kolaborasi di proyek web, baik di sisi frontend maupun backend. Tujuan saya adalah terus berkembang sebagai developer yang mampu memberikan [[solusi digital yang efisien dan berdampak]].</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-code",
+                    "locales": {
+                        "en": {
+                            "title": "Web {{Development}}",
+                            "text": "Mengeksplorasi framework baru dan teknik coding untuk menciptakan website yang lebih baik."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-server",
+                    "locales": {
+                        "en": {
+                            "title": "Backend & {{API}}",
+                            "text": "Menikmati proses merancang dan membangun backend yang kuat serta API yang efisien menggunakan Laravel."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-users",
+                    "locales": {
+                        "en": {
+                            "title": "Project {{Collaboration}}",
+                            "text": "Terbuka untuk kolaborasi, baik di sisi frontend maupun backend, untuk menciptakan solusi yang berdampak."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-book-open",
+                    "locales": {
+                        "en": {
+                            "title": "New {{Technology}}",
+                            "text": "Selalu antusias untuk belajar dan mengadaptasi teknologi-teknologi baru di dunia pengembangan web."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

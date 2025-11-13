@@ -1,0 +1,20 @@
+{
+    "name": "Tegar Alam Qushoyyi",
+    "profilePictureUrl": "images/pictures/avatar-tgr.png",
+    "resumePdfUrl": "CV-Tegar-Alam-Qushoyyi.pdf",
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_open_to_work",
+    "locales": {
+        "en": {
+            "localized_name": "Tegar Alam Qushoyyi",
+            "localized_name_stylized": " [[Tegar {{Alam}} Qushoyyi]] ",
+            "status_message_open_to_work": "Open to work!",
+            "roles": [
+                "Fullstack Web Developer",
+                "Laravel Framework Enthusiast",
+                "Fresh Graduate of Informatics Engineering"
+            ]
+        }
+    }
+}
