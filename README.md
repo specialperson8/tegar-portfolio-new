@@ -5,7 +5,7 @@
 
 Sebuah portofolio pribadi yang modern dan futuristik untuk menampilkan perjalanan karier, proyek, dan keahlian saya sebagai seorang Fullstack Web Developer. Dibangun menggunakan **React** dan disesuaikan dari template buatan Ryan Balieiro.
 
-![Tampilan Portofolio](./docs/assets/readme-tgr.png.png)
+![Tampilan Portofolio](./docs/assets/readme-tgr.png)
 
 *(**Catatan untuk Anda:** Ganti gambar di atas jika Anda ingin menampilkan screenshot portofolio Anda sendiri).*
 
