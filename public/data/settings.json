@@ -5,10 +5,9 @@
         "stayOnThePreloaderScreen": false,
         "version": "2.0.3"
     },
-
     "preloaderSettings": {
         "enabled": true,
-        "title": "React <strong>Portfolio</strong>",
+        "title": "Tegar's <strong>Portfolio</strong>",
         "subtitle": "by Tegar Alam Qushoyyi",
         "logoOffset": {
             "right": 14,
@@ -16,16 +15,14 @@
             "bottom": 0
         }
     },
-
     "templateSettings": {
         "animatedCursorEnabled": true,
         "backgroundStyle": "animated",
-        "defaultLanguageId": "en",
+        "defaultLanguageId": "id",
         "defaultThemeId": "dark",
         "fullscreenEnabled": true,
         "showSpinnerOnThemeChange": false
     },
-
     "supportedLanguages": [
         {
             "name": "English",
@@ -33,22 +30,11 @@
             "flagUrl": "images/flags/en-us.png"
         },
         {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
-        },
-        {
-            "name": "Français",
-            "id": "fr",
-            "flagUrl": "images/flags/fr.png"
-        },
-        {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
+            "name": "Indonesia",
+            "id": "id",
+            "flagUrl": "images/flags/id.png"
         }
     ],
-
     "supportedThemes": [
         {
             "id": "dark",
@@ -56,9 +42,7 @@
             "dark": true,
             "locales": {
                 "en": {"name": "Dark Mode"},
-                "es": {"name": "Modo Oscuro"},
-                "fr": {"name": "Mode Sombre"},
-                "ko": {"name": "다크 모드"}
+                "id": {"name": "Mode Gelap"}
             }
         },
         {
@@ -67,13 +51,10 @@
             "dark": false,
             "locales": {
                 "en": {"name": "Light Mode"},
-                "es": {"name": "Modo Claro"},
-                "fr": {"name": "Mode Clair"},
-                "ko": {"name": "라이트 모드"}
+                "id": {"name": "Mode Terang"}
             }
         }
     ],
-
     "consoleMessageForDevelopers": {
         "title": "\uD83D\uDDA5️ Hey there, fellow developer!",
         "items": [
@@ -83,34 +64,13 @@
                 "listStyle": "none"
             },
             {
-                "description": "Other frameworks and plugins used in the project include:",
+                "description": "Feel free to check out my GitHub profile:",
                 "list": [
-                    "Bootstrap 5: https://getbootstrap.com/",
-                    "Smooth Scrollbar: https://tinyurl.com/4yhm4n4a",
-                    "Swiper: https://swiperjs.com/",
-                    "EmailJS: https://www.emailjs.com/",
-                    "Font Awesome: https://fontawesome.com/",
-                    "PrimeIcons: https://primefaces.org/"
-                ],
-                "listStyle": "bulleted"
-            },
-            {
-                "description": "Clone it and customize it for your own portfolio:",
-                "list": [
-                    "https://github.com/ryanbalieiro/react-portfolio-template"
-                ],
-                "listStyle": "none"
-            },
-            {
-                "description": "Developer Info:",
-                "list": [
-                    "GitHub: https://github.com/ryanbalieiro",
-                    "Website: https://ryanbalieiro.com"
+                    "https://github.com/specialperson8"
                 ],
                 "listStyle": "bulleted"
             }
         ]
     },
-
     "imagesToCache": []
 }

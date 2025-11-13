@@ -6,6 +6,12 @@
                 "title_short_nav": "Achievements",
                 "title_long_prefix": "Here are my",
                 "title_long": "Career {{Achievements}}"
+            },
+            "id": {
+                "title_short": "Pencapaian",
+                "title_short_nav": "Pencapaian",
+                "title_long_prefix": "Ini adalah",
+                "title_long": "Pencapaian {{Karier}} Saya"
             }
         }
     },
@@ -14,140 +20,32 @@
             "id": 1,
             "component": "ArticleCards",
             "locales": {
-                "en": { "title": "Certifications" }
+                "en": { "title": "Certifications" },
+                "id": { "title": "Sertifikasi" }
             },
             "settings": {
                 "order_items_by": "date",
                 "order_items_sort": "desc"
             },
             "items": [
-                {
-                    "id": 1,
-                    "img": "images/pictures/dicoding-logo.jpg",
-                    "date": {"year": 2024, "month": 6},
-                    "link": {"href": "https://www.dicoding.com/certificates/98XWLOKGLZM3", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Belajar Back-End}} Pemula dengan JavaScript",
-                            "text": "Sertifikasi dari Dicoding Indonesia."
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "img": "images/pictures/dicoding-logo.jpg",
-                    "date": {"year": 2024, "month": 6},
-                    "link": {"href": "https://www.dicoding.com/certificates/2VX3R0WJQZYQ", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Menjadi Front-End}} Web Developer Expert",
-                            "text": "Sertifikasi dari Dicoding Indonesia."
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "img": "images/pictures/dicoding-logo.jpg",
-                    "date": {"year": 2024, "month": 6},
-                    "link": {"href": "https://www.dicoding.com/certificates/98XWL4Y09ZM3", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Meniti Karier}} sebagai Software Developer",
-                            "text": "Sertifikasi jalur karir dari Dicoding Indonesia."
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "img": "images/pictures/dicoding-logo.jpg",
-                    "date": {"year": 2024, "month": 6},
-                    "link": {"href": "https://www.dicoding.com/certificates/MEPJN55MLX3V", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Belajar Fundamental}} Front-End Web Development",
-                            "text": "Sertifikasi dari Dicoding Indonesia."
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "img": "images/pictures/dicoding-logo.jpg",
-                    "date": {"year": 2024, "month": 6},
-                    "link": {"href": "https://www.dicoding.com/certificates/2VX3OD2K4ZYQ", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Belajar Dasar}} Pemrograman JavaScript",
-                            "text": "Sertifikasi dari Dicoding Indonesia."
-                        }
-                    }
-                },
-                {
-                    "id": 6,
-                    "img": "images/pictures/dicoding-logo.jpg",
-                    "date": {"year": 2024, "month": 6},
-                    "link": {"href": "https://www.dicoding.com/certificates/4EXGK2LGEZRL", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Belajar Dasar}} Pemrograman Web",
-                            "text": "Sertifikasi dari Dicoding Indonesia."
-                        }
-                    }
-                },
-                {
-                    "id": 7,
-                    "img": "images/pictures/dicoding-logo.jpg",
-                    "date": {"year": 2024, "month": 6},
-                    "link": {"href": "https://www.dicoding.com/certificates/L4PQQNO8OPO1", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Belajar Membuat}} Front-End Web untuk Pemula",
-                            "text": "Sertifikasi dari Dicoding Indonesia."
-                        }
-                    }
-                },
-                {
-                    "id": 8,
-                    "img": "images/pictures/dicoding-logo.jpg",
-                    "date": {"year": 2024, "month": 6},
-                    "link": {"href": "https://www.dicoding.com/certificates/JMZVD884QZN9", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Belajar Dasar}} Git dengan GitHub",
-                            "text": "Sertifikasi dari Dicoding Indonesia."
-                        }
-                    }
-                },
-                {
-                    "id": 9,
-                    "img": "images/pictures/dicoding-logo.jpg",
-                    "date": {"year": 2024, "month": 6},
-                    "link": {"href": "https://www.dicoding.com/certificates/QLZ94GE77P5D", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Memulai Dasar}} Pemrograman untuk Menjadi Pengembang Software",
-                            "text": "Sertifikasi dari Dicoding Indonesia."
-                        }
-                    }
-                },
-                {
-                    "id": 10,
-                    "img": "images/pictures/dicoding-logo.jpg",
-                    "date": {"year": 2024, "month": 6},
-                    "link": {"href": "https://www.dicoding.com/certificates/JMZVD88KOZN9", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Pengenalan ke}} Logika Pemrograman (Programming Logic 101)",
-                            "text": "Sertifikasi dari Dicoding Indonesia."
-                        }
-                    }
-                }
+                { "id": 1, "img": "images/pictures/dicoding-logo.jpg", "date": {"year": 2024, "month": 6}, "link": {"href": "https://www.dicoding.com/certificates/98XWLOKGLZM3", "tooltipString": "see_certification"}, "locales": { "en": { "title": "{{Learning Back-End}} for Beginners with JavaScript", "text": "Certification from Dicoding Indonesia." }, "id": { "title": "{{Belajar Back-End}} Pemula dengan JavaScript", "text": "Sertifikasi dari Dicoding Indonesia." } } },
+                { "id": 2, "img": "images/pictures/dicoding-logo.jpg", "date": {"year": 2024, "month": 6}, "link": {"href": "https://www.dicoding.com/certificates/2VX3R0WJQZYQ", "tooltipString": "see_certification"}, "locales": { "en": { "title": "{{Becoming a Front-End}} Web Developer Expert", "text": "Certification from Dicoding Indonesia." }, "id": { "title": "{{Menjadi Front-End}} Web Developer Expert", "text": "Sertifikasi dari Dicoding Indonesia." } } },
+                { "id": 3, "img": "images/pictures/dicoding-logo.jpg", "date": {"year": 2024, "month": 5}, "link": {"href": "https://www.dicoding.com/certificates/98XWL4Y09ZM3", "tooltipString": "see_certification"}, "locales": { "en": { "title": "{{Software Developer}} Career Path", "text": "Career path certification from Dicoding Indonesia." }, "id": { "title": "{{Meniti Karier}} sebagai Software Developer", "text": "Sertifikasi jalur karir dari Dicoding Indonesia." } } },
+                { "id": 4, "img": "images/pictures/dicoding-logo.jpg", "date": {"year": 2024, "month": 4}, "link": {"href": "https://www.dicoding.com/certificates/MEPJN55MLX3V", "tooltipString": "see_certification"}, "locales": { "en": { "title": "{{Learning Fundamental}} Front-End Web Development", "text": "Certification from Dicoding Indonesia." }, "id": { "title": "{{Belajar Fundamental}} Front-End Web Development", "text": "Sertifikasi dari Dicoding Indonesia." } } },
+                { "id": 5, "img": "images/pictures/dicoding-logo.jpg", "date": {"year": 2024, "month": 3}, "link": {"href": "https://www.dicoding.com/certificates/2VX3OD2K4ZYQ", "tooltipString": "see_certification"}, "locales": { "en": { "title": "{{Learning Basic}} JavaScript Programming", "text": "Certification from Dicoding Indonesia." }, "id": { "title": "{{Belajar Dasar}} Pemrograman JavaScript", "text": "Sertifikasi dari Dicoding Indonesia." } } },
+                { "id": 6, "img": "images/pictures/dicoding-logo.jpg", "date": {"year": 2024, "month": 3}, "link": {"href": "https://www.dicoding.com/certificates/4EXGK2LGEZRL", "tooltipString": "see_certification"}, "locales": { "en": { "title": "{{Learning Basic}} Web Programming", "text": "Certification from Dicoding Indonesia." }, "id": { "title": "{{Belajar Dasar}} Pemrograman Web", "text": "Sertifikasi dari Dicoding Indonesia." } } },
+                { "id": 7, "img": "images/pictures/dicoding-logo.jpg", "date": {"year": 2024, "month": 3}, "link": {"href": "https://www.dicoding.com/certificates/L4PQQNO8OPO1", "tooltipString": "see_certification"}, "locales": { "en": { "title": "{{Learning to Create}} Front-End Web for Beginners", "text": "Certification from Dicoding Indonesia." }, "id": { "title": "{{Belajar Membuat}} Front-End Web untuk Pemula", "text": "Sertifikasi dari Dicoding Indonesia." } } },
+                { "id": 8, "img": "images/pictures/dicoding-logo.jpg", "date": {"year": 2024, "month": 2}, "link": {"href": "https://www.dicoding.com/certificates/JMZVD884QZN9", "tooltipString": "see_certification"}, "locales": { "en": { "title": "{{Learning Basic}} Git with GitHub", "text": "Certification from Dicoding Indonesia." }, "id": { "title": "{{Belajar Dasar}} Git dengan GitHub", "text": "Sertifikasi dari Dicoding Indonesia." } } },
+                { "id": 9, "img": "images/pictures/dicoding-logo.jpg", "date": {"year": 2024, "month": 2}, "link": {"href": "https://www.dicoding.com/certificates/QLZ94GE77P5D", "tooltipString": "see_certification"}, "locales": { "en": { "title": "{{Starting Basic}} Programming to Become a Software Developer", "text": "Certification from Dicoding Indonesia." }, "id": { "title": "{{Memulai Dasar}} Pemrograman untuk Menjadi Pengembang Software", "text": "Sertifikasi dari Dicoding Indonesia." } } },
+                { "id": 10, "img": "images/pictures/dicoding-logo.jpg", "date": {"year": 2024, "month": 2}, "link": {"href": "https://www.dicoding.com/certificates/JMZVD88KOZN9", "tooltipString": "see_certification"}, "locales": { "en": { "title": "{{Introduction to}} Programming Logic (Programming Logic 101)", "text": "Certification from Dicoding Indonesia." }, "id": { "title": "{{Pengenalan ke}} Logika Pemrograman (Programming Logic 101)", "text": "Sertifikasi dari Dicoding Indonesia." } } }
             ]
         },
         {
             "id": 2,
             "component": "ArticleThread",
             "locales": {
-                "en": { "title": "Awards" }
+                "en": { "title": "Awards" },
+                "id": { "title": "Penghargaan" }
             },
             "settings": {
                 "max_rows_collapse_threshold": 4,
@@ -156,19 +54,18 @@
             },
             "items": [
                 {
-                    "id": 101,
-                    "faIcon": "fa-solid fa-trophy",
-                    "faIconColors": {"bg": "#E6A636", "fill": "#fff"},
+                    "id": 1,
                     "date": {"year": 2022, "month": 2},
                     "preview": {
-                       "links": [
+                        "links": [
                             {
-                                "href": "https://www.linkedin.com/in/tegaralam/details/honors/", 
-                                "tooltipString": "see_awards", 
+                                "href": "https://www.linkedin.com/in/tegaralam/details/honors/",
+                                "tooltipString": "see_award_proof",
                                 "faIcon": "fa-solid fa-up-right-from-square"
                             }
                         ],
-                        "youtubeVideo": ""
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
@@ -176,9 +73,16 @@
                             "province": "",
                             "country": "International",
                             "institution": "AISEEF",
+                            "text": "Received a bronze medal in an ASEAN-level innovation competition for contributions to the development of an innovative and impactful project.",
+                            "list": []
+                        },
+                        "id": {
+                            "title": "{{Medali Perunggu}} – Asean Innovative Science Environmental and Entrepreneur Fair",
+                            "province": "",
+                            "country": "Internasional",
+                            "institution": "AISEEF",
                             "text": "Menerima medali perunggu dalam kompetisi inovasi tingkat ASEAN untuk kontribusi dalam pengembangan proyek yang inovatif dan berdampak.",
-                            "list": [],
-                            "tags": []
+                            "list": []
                         }
                     }
                 }
